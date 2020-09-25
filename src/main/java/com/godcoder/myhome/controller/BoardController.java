@@ -41,6 +41,7 @@ public class BoardController {
         return "board/form";
     }
 
+    //수정이 안된다
 //    @PostMapping("/form")
 //    public String boardSubmit(@ModelAttribute Board board) {
 //        boardRepository.save(board);
