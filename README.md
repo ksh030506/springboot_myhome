@@ -27,6 +27,7 @@ GET /list
 }
 ```
 <br/>
+<hr/>
 
 ```
 POST /form
@@ -54,6 +55,7 @@ POST /form
 ```
 
 <br/>
+<hr/>
 
 ```
 GET /form?id=
@@ -77,6 +79,7 @@ GET /form?id=
 ```
 
 <br/>
+<hr/>
 
 ```
 POST /form
