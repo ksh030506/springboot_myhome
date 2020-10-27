@@ -1,10 +1,13 @@
 # springboot_myhome
 
 ## API 명세서
+
 ```
 GET /list
 ```
+
 - Request
+
 ```
 {
 
@@ -12,6 +15,7 @@ GET /list
 ```
 
 - Response
+
 ```
 {
   "id" : "",
@@ -23,10 +27,12 @@ GET /list
 }
 ```
 <br/>
+
 ```
 POST /form
 ```
 - Request
+
 ```
 {
   "title" : "",
@@ -35,6 +41,7 @@ POST /form
 ```
 
 - Response
+
 ```
 {
   "id" : "",
@@ -45,11 +52,15 @@ POST /form
   .
 }
 ```
+
 <br/>
+
 ```
 GET /form?id=
 ```
+
 - Request
+
 ```
 {
 
@@ -57,17 +68,22 @@ GET /form?id=
 ```
 
 - Response
+
 ```
 {
   "title" : "",
   "content" : ""
 }
 ```
+
 <br/>
+
 ```
 POST /form
 ```
+
 - Request
+
 ```
 {
   "title" : "",
@@ -76,6 +92,7 @@ POST /form
 ```
 
 - Response
+
 ```
 {
   "id" : "",
